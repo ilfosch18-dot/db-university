@@ -23,3 +23,15 @@ WHERE cfu > 10;
 SELECT *
 FROM students
 WHERE date_of_birth < '1995-10-16';
+
+-- Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea
+SELECT *
+FROM courses
+WHERE period = 'I semestre'
+AND year = 1;
+
+-- Sono 286
+SELECT COUNT(*)
+FROM courses
+WHERE period = 'I semestre'
+AND year = 1;
