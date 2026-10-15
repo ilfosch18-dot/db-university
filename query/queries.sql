@@ -47,3 +47,13 @@ SELECT COUNT(*)
 FROM exams
 WHERE hour > '14:00'
 AND date = '2020-06-20';
+
+-- Selezionare tutti i corsi di laurea magistrale
+SELECT *
+FROM degrees
+WHERE level = 'magistrale';
+
+-- Sono 38
+SELECT COUNT(*)
+FROM degrees
+WHERE level = 'magistrale';
