@@ -57,3 +57,8 @@ WHERE level = 'magistrale';
 SELECT COUNT(*)
 FROM degrees
 WHERE level = 'magistrale';
+
+-- Da quanti dipartimenti è composta l'università? Sono 12
+SELECT COUNT(*)
+FROM departments
+WHERE id;
