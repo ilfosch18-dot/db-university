@@ -62,3 +62,8 @@ WHERE level = 'magistrale';
 SELECT COUNT(*)
 FROM departments
 WHERE id;
+
+-- Quanti sono gli insegnanti che non hanno un numero di telefono? Sono 50
+SELECT COUNT(*)
+FROM teachers
+WHERE phone <> '+';
